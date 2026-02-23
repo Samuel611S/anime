@@ -27,8 +27,11 @@ Output: `dist/` (static assets)
 
 ## GitHub Pages Deployment
 
-1. Push to `main` – the workflow builds and deploys automatically.
-2. In repo **Settings → Pages**, set **Source** to **GitHub Actions**.
+1. Push to `main` – the workflow builds and pushes to the `gh-pages` branch.
+2. In repo **Settings → Pages**:
+   - **Source**: Deploy from a branch
+   - **Branch**: gh-pages
+   - **Folder**: / (root)
 3. Site will be live at `https://samuel611s.github.io/anime/`
 
 ## Project Structure
