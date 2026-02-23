@@ -25,6 +25,12 @@ npm run build
 
 Output: `dist/` (static assets)
 
+## GitHub Pages Deployment
+
+1. Push to `main` – the workflow builds and deploys automatically.
+2. In repo **Settings → Pages**, set **Source** to **GitHub Actions**.
+3. Site will be live at `https://samuel611s.github.io/anime/`
+
 ## Project Structure
 
 ```
